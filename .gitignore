@@ -1,7 +1,13 @@
-node_modules
-dist
+node_modules/
+dist/
+
+# Environment variables
 .env
 .env.*
 !.env.example
-.vercel
-.sf
+
+# Deployment
+.vercel/
+
+# Salesforce
+.sf/
